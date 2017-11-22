@@ -26,17 +26,17 @@
             </objects>
             <point key="canvasLocation" x="476" y="98.50074962518741"/>
         </scene>
-        <!--Test-->
+        <!--Second VC-->
         <scene sceneID="f5S-jm-ckC">
             <objects>
-                <viewController id="x0r-5q-0Fi" sceneMemberID="viewController">
+                <viewController id="x0r-5q-0Fi" customClass="SecondViewController" customModule="LifeCycle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gny-p6-eiv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="p2V-HO-EgZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Test" id="6A0-iY-8bf"/>
+                    <tabBarItem key="tabBarItem" title="Second VC" id="6A0-iY-8bf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QEK-iV-gT9" userLabel="First Responder" sceneMemberID="firstResponder"/>

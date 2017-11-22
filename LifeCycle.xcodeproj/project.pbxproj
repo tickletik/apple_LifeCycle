@@ -13,6 +13,7 @@
 		E33692DD1FC5755F007FE8A5 /* LifeCycle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E33692DB1FC5755F007FE8A5 /* LifeCycle.xcdatamodeld */; };
 		E33692DF1FC5755F007FE8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33692DE1FC5755F007FE8A5 /* Assets.xcassets */; };
 		E33692E21FC5755F007FE8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33692E01FC5755F007FE8A5 /* LaunchScreen.storyboard */; };
+		E33692EA1FC587C9007FE8A5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33692E91FC587C9007FE8A5 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E33692DE1FC5755F007FE8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33692E11FC5755F007FE8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33692E31FC5755F007FE8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33692E91FC587C9007FE8A5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E33692D41FC5755F007FE8A5 /* AppDelegate.swift */,
 				E33692D61FC5755F007FE8A5 /* ViewController.swift */,
 				E33692D81FC5755F007FE8A5 /* Main.storyboard */,
+				E33692E91FC587C9007FE8A5 /* SecondViewController.swift */,
 				E33692DE1FC5755F007FE8A5 /* Assets.xcassets */,
 				E33692E01FC5755F007FE8A5 /* LaunchScreen.storyboard */,
 				E33692E31FC5755F007FE8A5 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33692EA1FC587C9007FE8A5 /* SecondViewController.swift in Sources */,
 				E33692D71FC5755F007FE8A5 /* ViewController.swift in Sources */,
 				E33692DD1FC5755F007FE8A5 /* LifeCycle.xcdatamodeld in Sources */,
 				E33692D51FC5755F007FE8A5 /* AppDelegate.swift in Sources */,
