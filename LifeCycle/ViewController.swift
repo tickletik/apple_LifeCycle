@@ -13,33 +13,44 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("View Controller - View did load")
+        if let name = tabBarItem.title {
+            print("\(name) - View did load")
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        print("View Controller - View will appear")
+        if let name = tabBarItem.title {
+            print("\(name) - View will appear")
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        print("View Controller - View DID appear")
+        if let name = tabBarItem.title {
+            print("\(name) - View DID appear")
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-        print("View Controller - View will dissappear")
+        if let name = tabBarItem.title {
+            print("\(name) - View will dissappear")
+        }
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         
-        print("View Controller - View did disappear")
+        if let name = tabBarItem.title {
+            print("\(name) - View did disappear")
+        }
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
